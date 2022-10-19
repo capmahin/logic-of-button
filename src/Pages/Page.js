@@ -58,6 +58,7 @@ const Page = () => {
           </button>
         </div>
       )}
+      {/* set Another state and map it */}
       {state.showMore &&
         sampleData.map((each) => {
           const { name, profession, age } = each;
